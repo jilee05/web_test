@@ -10,7 +10,15 @@
       color:blue;
       text-decoration:none;
     }
-    </style>
+  
+    .js{
+      font-weight:bold;
+      color: red;
+    }
+    #first{
+      color:green;
+    }
+  </style>
 </head>
 
 <body>
@@ -20,10 +28,13 @@
     <li><a href="2.html">CSS</a></li>
     <li><a href="3.html">JavaScript</a></li>
   </ol>
-  <h2>JavaScript 이란 무엇인가? </h2>
-  <p><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" title="html5">JavaScript </a>,often abbreviated as JS,
+  <h2 style="background-color:lightgray">JavaScript 이란 무엇인가? </h2>
+  <p>
+    <span id="first" class="js">
+    <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" title="html5">JavaScript </a></span>,often abbreviated as JS,
     is a high-level, interpreted programming language that conforms to the ECMAScript specification.
-    JavaScript has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
+    <span class="js">JavaScript</span> has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
+  </p>
 
   <img src="html.jpg" width="100%">
 </body>
